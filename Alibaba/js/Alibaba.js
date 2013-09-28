@@ -29,4 +29,10 @@ function initEvents(){
 		$(this).find("dt").removeClass("dtover");
 		$(this).find("dd").hide();
 });
+
+	$("#logo").hover(function(){
+		$(this).css("background-position","0 -40px");
+	},function(){
+		$(this).css("background-position","0 0");
+	});
 }

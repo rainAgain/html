@@ -10,7 +10,7 @@ body{margin: auto;}
 
 #home{width: 990px;height: 15px;margin:0 auto 0 auto ;border: 1px solid #666;}
 #picbox{width: 100%;height: 300px;margin: 0;background-color: #ebeae5; }
-#column1{width: 990px;height: 119px;margin: 0 auto 0 auto;border: 1px solid #666;}
+#column1{width: 990px;height: 119px;margin: 0 auto 0 auto;border: 0px ;}
 #line{width: 100%;height: 5px;margin: 0 0 40px 0;background-image: url("images/assessment_line990x20.png");display: block;background-repeat: no-repeat;}
 #column2{width: 990px;height: 809px;margin: 0 auto 0 auto;border: 1px solid #666;}
 
@@ -21,11 +21,50 @@ body{margin: auto;}
 #lefttop a{width: 52px;height: 14px;margin: 0;font-size: 12px;font-family: Arial;font-weight: 400; ;line-height: 15px;text-align: left;color: #0066cc;}
 #righttop{width: 523px;height: 29px;margin: 0;float: right;}
 
-.tbmenu{width: 60px;height: 29px;position: relative;float: left;}
-.tbmenu dt{width:32px;height: 15px;margin: 4px 0 2px 0;border-bottom: 0; position: absolute;left: 0;z-index: 10; padding: 0px 10px 4px 10px;}
-.tbmenu a{font-size: 12px;font-family: 微软雅黑;width: 100%;height: 23px;color: #666;line-height: 23px;padding: 0px 9px 4px 9px;}
+.tbmenu{width:60px;height: 29px;position: relative;float: left;}
+.tbmenu dt{width:auto;height: 15px;margin: 4px 0 2px 0;border-bottom: 0; position: absolute;left: 0;z-index: 10; padding: 0px 0px 4px 0px;}
+.tbmenu a{font-size: 12px;font-family: 微软雅黑;width:auto;height: 23px;color: #666;line-height: 23px;padding: 0px 9px 4px 9px;}
 .tbmenu a:hover{ color: #f60;}
 .tbmenudd{width: 159px;height: auto;border: 1px solid #ccc;background-color: #fff;position: absolute; top: 23px; z-index: 9;display: none;}
 .dtover{border: 1px solid #ccc;background-color: #fff;border-bottom: 0;}
 
+#logo{width: 200px;height: 37px;background-image: url("images/header-v2-1.png");display: block;background-repeat: no-repeat;background-position: 0 0;float: left;}
+#titletxt{width: 200px;height: 34px;float: left;}
+#titletxt h2{width: 200px;height: 18px;margin: 8px 0 8px 0; color: #333;font-family: Arial;font-size: 18px;font-weight: 400;line-height: 18px;}
 
+.breadcrumb{width: 990px;height: 15px;margin: 0 0 10px 0;font-family: Tahoma;font-size: 11px;font-weight: 400;line-height: 15px; color: #a6a6a6;}
+.breadcrumb a{width: 27px;height: 15px;margin: 0;color: #0066cc;font-family: Tahoma;font-size: 11px;font-weight: 400;line-height: 15px;}
+.breadcrumb a:hover{color: #f60; text-decoration: underline;}
+.current{width: 72px;height: 15px;font-family: Tahoma;font-size: 11px;font-weight: 700;line-height: 15px;color: #666;}
+
+.list{width: 990px;height:63px;margin: 40px 0 0 0;}
+.one{width: 240px;height: 55px;margin: 8px 0 0 0;float: left;}
+.beone{width: 44px;height: 32px;background-image: url("images/credit-home.png");display: block;background-repeat: no-repeat;background-position: 0 0;float: left;}
+.descript{width: 160px;height: 34px;margin: 0 0 21px 0;padding: 0 36px 0 0;color: #333;float: left;font-family: Arial;font-size: 14px;font-weight: 400;line-height: 17px;}
+
+.two{width: 240px;height: 55px;margin: 8px 0 0 0;float: left;}
+.betwo{width: 44px;height: 32px;background-image: url("images/credit-home.png");display: block;background-repeat: no-repeat;background-position: 0 -40px;float: left;}
+.three{width: 240px;height: 55px;margin: 8px 0 0 0;float: left;}
+.bethree{width: 44px;height: 32px;background-image: url("images/credit-home.png");display: block;background-repeat: no-repeat;background-position: 0 -80px;float: left;}
+.four{width: 240px;height: 55px;margin: 8px 0 0 0;float: left;}
+.befour{width: 44px;height: 32px;background-image: url("images/credit-home.png");display: block;background-repeat: no-repeat;background-position: 0 -120px;float: left;}
+.action{width: 990px;height: 36px;margin: 20px 0 40px 0;text-align: center;}
+.button{width: 92px;height: 18px;padding: 8px 15px 8px 15px;border: 1px solid #e87b0e;border-radius: 2px;color: #fff;cursor: pointer;font-family: Arial;font-size: 18px;font-weight: 700;line-height: 18px;background-image: url("images/btn1.png");display: block;background-repeat: no-repeat;background-position: 0px -1px;margin: auto;}
+.button:hover{background-image: url("images/btn2.png");}
+
+
+#first{width: 990px;height: 144px;margin: 20px 0 20px 0;}
+.biaoti{width: 989px;height: 16px;padding: 0 0 5px 1px;border-bottom: 2px solid #1996e6;color: #333;font-family: Arial;font-size: 16px;font-weight: 700;line-height: 16px;}
+.neirong{width: 958px;height: 90px;padding: 15px;margin: 0;border: 1px solid #ddd;color: #333;font-family: Arial;font-size: 12px;font-weight: 400;line-height: 18px;}
+
+#second{width: 990px;height: 203px;margin: 20px 0 20px 0;}
+.leftsec{width: 490px;height: 202px;margin: 0;float: left;}
+.secbiaoti{width: 489px;height: 16px;padding: 0 0 5px 1px;border-bottom: 2px solid #1996e6;color: #333;font-family: Arial;font-size: 16px;font-weight: 700;line-height: 16px;}
+.secneirong{width: 458px;height: 148px;padding: 15px;margin: 0;border: 1px solid #ddd;color: #333;font-family: Arial;font-size: 12px;font-weight: 400;line-height: 18px;}
+.rightsec{width: 490px;height: 202px;margin: 0;float: right;}
+.requirelist{width: 458px;height: 120px;}
+.yiyi{width: 450px;height: 16px;margin: 0;padding: 0 0 0 8px;color: #333; font-family: Arial;font-size: 12px;line-height: 16px;font-weight: 400;}
+.smallicon{width: 3px;height: 3px;margin: 0;background-color: #ccc;}
+
+
+#img{width: 471px;height: 125px;margin: 0;background-image: url("images/howtoapply_new.jpg");display: block;background-repeat: no-repeat;}
