@@ -91,16 +91,16 @@ body{margin: auto;text-align: center;}
 #img3:hover{background-image: url("images/img33.png");background-position: -1px 0;}
 #img4{width: 184px;height: 300px;border-bottom: 1px solid #ccc; margin: 0 0 20px 20px; background-image: url("images/img4.png");display: block;background-repeat: no-repeat;float: right;}
 #img4:hover{background-image: url("images/img44.png");background-position: -1px 1px;}
-#img5{width: 184px;height: 160px;border-bottom: 1px solid #ccc; margin: 0 0 20px 0;background-image: url("images/img5.png");display: block;background-repeat: no-repeat;float: left; }
+#img5{width: 184px;height: 140px;border-bottom: 1px solid #ccc; margin: 0 0 20px 0;background-image: url("images/img5.png");display: block;background-repeat: no-repeat;float: left; }
 #img5:hover{background-image: url("images/img55.png");background-position: 0 -1px;}
-#img5555{width: 184px;height: 300px; margin: 0 0 20px 0;float: left; position: relative;z-index: 2;}
+#img5555{width: 184px;height: 300px; margin: 0 0 20px 0;float: left; position: relative;z-index: 2;display: block;}
 
 
 #img6{width: 286px;height: 300px;border-bottom: 1px solid #ccc; margin: 0 0 20px 20px;background-image: url("images/img6.png");display: block;background-repeat: no-repeat;float: left;}
 #img6:hover{background-image: url("images/img66.png");background-position: -1px 0;}
 #img7{width: 184px;height: 140px;border-bottom: 1px solid #ccc;  margin: 0 0 20px 20px;background-image: url("images/img7.png");display: block;background-repeat: no-repeat;float: left;}
 #img7:hover{background-image: url("images/img77.png");background-position: -1px -1px;}
-#img8{width: 184px;height: 140px; border: 0px; margin: 0 0 20px 0;background-image: url("images/img8.png");display: block;background-repeat: no-repeat;position: absolute;top: 160px;}
+#img8{width: 184px;height: 140px; border: 0px; margin:0;background-image: url("images/img8.png");display: block;background-repeat: no-repeat;position: absolute;top: 160px;}
 #img8:hover{background-image: url("images/img88.png");background-position: -1px -1px;}
 #img9{width: 388px;height: 140px;border-bottom: 1px solid #ccc;  margin: 0 0 20px 20px;background-image: url("images/img9.png");display: block;background-repeat: no-repeat;float: right;}
 #img9:hover{background-image: url("images/img99.png");}

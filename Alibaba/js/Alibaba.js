@@ -3,7 +3,7 @@ $(function(){
 	initEvents();
 		initPosition();
 
-		setInterval("add();",5000);
+		setInterval("add();",1200);
 }); 
 
 
@@ -48,6 +48,21 @@ function initEvents(){
 		}
 	});
 	
+
+	$(".button").hover(function(){
+		$(this).css("background-image",'url("css/images/btn2.png")');
+	},function(){
+		$(this).css("background-image",'url("css/images/btn1.png")');
+	});
+       $(".submit").hover(function(){
+       	$(this).css({"background-image":'url("css/images/sub2.png")',
+       		"background-position":"0 0"
+       });
+       },function(){
+       		$(this).css({"background-image":'url("css/images/sub1.png")',
+       		"background-position":"0 -1px"
+       });
+       })
 
 
 }

@@ -33,12 +33,12 @@ function initEvents(){
 
 
 
-	$("#txt").keyup(function(){
-		var val = $(this).val();
-		if (val == "") {
-			$(this).css("background-image",'url("images/T1vkeZFmRaXXXMtt6f-159-39.gif")');
+	$("#txt").keyup(function(e){
+		var val = $("#txt").val();
+		if (val == ""&& e.keyCode==8) {
+			$("#txt").css("background-image",'url("images/T1vkeZFmRaXXXMtt6f-159-39.gif")');
 		}else{
-			$(this).css("background-image","none");
+			$("#txt").css("background-image","none");
 		}
 		
 	});

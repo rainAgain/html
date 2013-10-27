@@ -4,23 +4,62 @@ $(function(){
 });
 
 function initEvents(){
-	$(".xihuandl dt").mouseover(function(){
+/*	$(".xihuandl dt").mouseover(function(){
 		
 		$(this).next("dd").slideDown(400);
 
-	});
+	});*/
 		/*$(".xihuandl").mouseout(function(){
 		
 		$(this).find("dd").slideUp(400);
 
 	});*/
-		$(".xihuandd").hover(function(){
-			$(this).show();
 
+
+
+
+	$(".xihuandl").hover(function(){
+		$(this).find("dd").slideDown(400);
+	},function(){
+		$(this).find("dd").slideUp(400);
+	}
+
+		);
+		/*$(".xihuandl dd").hover(function(){
+			$(this).show();
 
 		},function(){
 			$(this).slideUp(400);
-		});
+		});*/
+
+	$("#lanmu1").hover(function(){
+		$(this).css("background-position","-111px -133px");
+
+	},function(){
+		$(this).css("background-position","-111px 0");
+
+	});
+	$("#lanmu2").hover(function(){
+		$(this).css("background-position","-251px -133px");
+
+	},function(){
+		$(this).css("background-position","-251px 0");
+
+	});
+	$("#lanmu3").hover(function(){
+		$(this).css("background-position","-391px -133px");
+
+	},function(){
+		$(this).css("background-position","-391px 0");
+
+	});
+	$("#lanmu4").hover(function(){
+		$(this).css("background-position","-531px -133px");
+
+	},function(){
+		$(this).css("background-position","-531px 0");
+
+	});
 
 
 	$(".guanzhudiv").mouseover(function(){
@@ -33,7 +72,112 @@ function initEvents(){
 		$(this).find("a").css("color","#bcbcbc");
 	});
 
+	$(".noinsterst").hover(function(){
+		$(this).css("background-position","0 -1998px");
 
+	},function(){
+		$(this).css("background-position","-24px -1998px");
+
+	});
+
+	$("#yuming").hover(function(){
+		$(this).css("background-color","#fff");
+
+	},function(){
+		$(this).css("background-color","#f3f3f3");
+
+	});
+	$("#xiazhui").hover(function(){
+		$(this).css("background-color","#fff");
+
+	},function(){
+		$(this).css("background-color","#f3f3f3");
+
+	});
+	$("#wenzhang").hover(function(){
+		$(this).css("background-color","#fff");
+
+	},function(){
+		$(this).css("background-color","#f3f3f3");
+
+	});
+	$("#setting").hover(function(){
+		$(this).css("background-color","#fff");
+
+	},function(){
+		$(this).css("background-color","#e7e7e7");
+
+	});
+	$("#fxhbk").hover(function(){
+		$(this).css("background-color","#fff");
+
+	},function(){
+		$(this).css("background-color","#e7e7e7");
+
+	});
+	$("#wenzhang").hover(function(){
+		$(this).css("background-color","#fff");
+
+	},function(){
+		$(this).css("background-color","#f3f3f3");
+
+	});
+	$("#setting").hover(function(){
+		$(this).css("background-color","#fff");
+
+	},function(){
+		$(this).css("background-color","#e7e7e7");
+
+	});
+	$("#fxhbk").hover(function(){
+		$(this).css("background-color","#fff");
+
+	},function(){
+		$(this).css("background-color","#e7e7e7");
+
+	});
+		$("#friend1").hover(function(){
+		$(this).css("background-color","#fff");
+
+	},function(){
+		$(this).css("background-color","#e7e7e7");
+
+	});
+		$("#friend2").hover(function(){
+		$(this).css("background-color","#fff");
+
+	},function(){
+		$(this).css("background-color","#e7e7e7");
+
+	});
+		$("#activity1").hover(function(){
+		$(this).css("background-color","#fff");
+
+	},function(){
+		$(this).css("background-color","#e7e7e7");
+
+	});
+		$("#activity2").hover(function(){
+		$(this).css("background-color","#fff");
+
+	},function(){
+		$(this).css("background-color","#e7e7e7");
+
+	});
+		$("#chose1").hover(function(){
+		$(this).css("background-color","#fff");
+
+	},function(){
+		$(this).css("background-color","#e7e7e7");
+
+	});
+	$("#guanzhu").hover(function(){
+		$(this).css("background-color","#fff");
+
+	},function(){
+		$(this).css("background-color","#f3f3f3");
+
+	});
 
 	$(".design1").hover(function(){
 		$(this).css("color","#7594b3");

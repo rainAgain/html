@@ -73,5 +73,6 @@ $(".figcaption2").animate({left:130},500);
 	});
 	
 
+
 }
 	
